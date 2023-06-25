@@ -1,2 +1,2 @@
-### Prova - 2° Bimestre
-> Prova do 2° Bimestre da matéria de _*Construção de Software para Web*_, ministrada pelo professor Otávio Lube.
+# Prova - 1° Bimestre
+> Prova do 1° bimestre da disciplina de *Construção de Software Web*, ministrada pelo professor _Otávio Lube_.
