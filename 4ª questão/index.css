@@ -1,10 +1,24 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: #fff;
 }
 
 h1 {
   text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 }
 
 label {
@@ -13,13 +27,45 @@ label {
 
 input {
   padding: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
   padding: 5px 10px;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
 }
 
 #output {
   margin-top: 20px;
   font-weight: bold;
+  text-align: center;
+}
+
+.perfect-square {
+  background-color: #a8e6cf;
+}
+
+.not-perfect-square {
+  background-color: #f1a6a6;
 }
