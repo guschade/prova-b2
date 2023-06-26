@@ -4,14 +4,18 @@ function isPerfectSquare(number) {
 }
 
 function checkPerfectSquare() {
-  let number = parseInt(document.getElementById("numberInput").value);
+  var numberInput = document.getElementById("numberInput").value;
+  var output = document.getElementById("output");
 
-  let result = isPerfectSquare(number);
+  var isPerfectSquare = Math.sqrt(numberInput) % 1 === 0;
 
-  let output = document.getElementById("output");
-  if (result) {
-    output.textContent = number + " é um quadrado perfeito.";
+  if (isPerfectSquare) {
+    document.body.className = "perfect-square";
+
+    output.innerHTML = numberInput + " é um quadrado perfeito!";
   } else {
-    output.textContent = number + " não é um quadrado perfeito.";
+    document.body.className = "not-perfect-square";
+
+    output.innerHTML = numberInput + " não é um quadrado perfeito!";
   }
 }
